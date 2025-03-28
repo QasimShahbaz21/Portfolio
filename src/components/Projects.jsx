@@ -11,46 +11,46 @@ const Projects = () => {
       name: "KENFORE",
       image: "/kenfore.webp",
       description: "KENFORE ANALYTIC",
-      tech:"Codeigniter , Bootstrap, MySql",
-      link:"https://kenforeanalytics.com/"
+      tech: "Codeigniter , Bootstrap, MySql",
+      link: "https://kenforeanalytics.com/",
     },
     {
       id: 2,
       name: "ITC",
       image: "/itc.png",
       description: "ISLAMABAD TEA",
-      tech:"Codeigniter, HTML, CSS, MySql",
-      link:"https://elohimtechnology.com/ITC/"
+      tech: "Codeigniter, HTML, CSS, MySql",
+      link: "https://elohimtechnology.com/ITC/",
     },
     {
       id: 3,
       name: "OVEXTECH",
       image: "/ovextech.png",
       description: "OVEX TECH",
-      tech:"Codeigniter, HTML, CSS, MySql",
-      link:"https://ovextech.com/"
+      tech: "Codeigniter, HTML, CSS, MySql",
+      link: "https://ovextech.com/",
     },
     {
       id: 4,
       name: "Tipsy",
       image: "/tipsy.png",
       description: "TIPSY TEA",
-      tech:"Codeigniter, HTML, CSS, MySql",
-      link: "https://elohimtechnology.com/tipsytcup-redesign/"
+      tech: "Codeigniter, HTML, CSS, MySql",
+      link: "https://elohimtechnology.com/tipsytcup-redesign/",
     },
     {
       id: 5,
       name: "Lexed",
       image: "/lexed.png",
       description: "Laws Of Pakistan",
-      tech:"Codeigniter, HTML, CSS, MySql",
-      link: "https://lawsofpakistan.online/"
+      tech: "Codeigniter, HTML, CSS, MySql",
+      link: "https://lawsofpakistan.online/",
     },
     {
       id: 6,
       name: "OCHII",
       image: "/1.png",
-      tech:"React js, Tailwindcss",
+      tech: "React js, Tailwindcss",
       description: "Ochii",
     },
   ];
@@ -80,7 +80,8 @@ const Projects = () => {
                 return newHovering;
               })
             }
-            className="relative flex flex-col md:w-[45%] w-full md:h-[80vh] h-[100vh]">
+            className="relative flex flex-col md:w-[45%] w-full md:h-[80vh] h-[100vh]"
+          >
             <div className="absolute  left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] z-50">
               <motion.h1
                 initial={{ opacity: 0, y: 100 }}
@@ -114,8 +115,13 @@ const Projects = () => {
               </motion.h1>
             </div>
             <ul className="px-7 pb-10 list-disc marker:text-white marker:text-2xl">
-              <li className="md:text-3xl text-2xl hover:scale-40 hover:text-[#E74C3C]"> <a href={project.link}>{project.description}</a></li>
-              <li className="text-gray-400 list-none mt-2 md:text-lg">{project.tech}</li>
+              <li className="md:text-3xl text-2xl hover:scale-40 hover:text-[#E74C3C]">
+                {" "}
+                <a href={project.link}>{project.description}</a>
+              </li>
+              <li className="text-gray-400 list-none mt-2 md:text-lg">
+                {project.tech}
+              </li>
             </ul>
             <div className="card rounded-xl overflow-hidden  transition-transform duration-300 hover:scale-90">
               <img
