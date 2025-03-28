@@ -7,6 +7,7 @@ import {
   FaLinkedin,
   FaTwitter,
   FaMapMarkerAlt,
+  FaDownload,
 } from "react-icons/fa";
 
 const Contact = () => {
@@ -90,20 +91,22 @@ const Contact = () => {
                 Muhammad Qasim Shahbaz
               </a>
             </div>
-            {/* <div className="flex items-center space-x-4 text-gray-700">
-              <FaTwitter className="text-xl text-blue-400" />
-              <a
-                href="https://twitter.com/yourhandle"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="hover:underline"
-              >
-                @yourhandle
-              </a>
-            </div> */}
             <div className="flex items-center space-x-4 text-gray-700">
               <FaMapMarkerAlt className="text-xl text-green-600" />
               <span>Islamabad, Pakistan</span>
+            </div>
+            <div className="flex items-center space-x-4 text-gray-700">
+              <FaDownload  className="text-xl text-blue-400" />
+              <a
+                href="/frontendCv.pdf"
+                download="Qasim's_Cv"
+                rel="noopener noreferrer"
+                className="hover:underline "
+              >
+                <button className="rounded-full font-medium text-xl leading-none tracking-tight bg-black text-white">
+                Download Cv
+                </button>
+              </a>
             </div>
           </div>
         </div>

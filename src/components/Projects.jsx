@@ -124,11 +124,13 @@ const Projects = () => {
               </li>
             </ul>
             <div className="card rounded-xl overflow-hidden  transition-transform duration-300 hover:scale-90">
+              <a href={project.link}>
               <img
                 className="w-full md:h-[60vh] h-[70vh] object-cover"
                 src={project.image}
                 alt={project.name}
               />
+              </a>
             </div>
           </div>
         ))}

@@ -21,7 +21,7 @@ const Navbar = () => {
 
       {/* Right - Hire Me */}
       <div className="hidden md:block pl-4 border-l-2 border-[#000]">
-        <button className="w-[100px] py-3 bg-black text-white font-medium text-xl leading-none tracking-tight">
+        <button className="w-[100px] py-3 bg-black text-white rounded-full font-medium text-xl leading-none tracking-tight">
           Hire Me
         </button>
       </div>
