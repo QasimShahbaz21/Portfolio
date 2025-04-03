@@ -103,7 +103,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="hover:underline "
               >
-                <button className="rounded-full font-medium text-xl leading-none tracking-tight bg-black text-white md:py-2 py-2">
+                <button className="rounded-full font-medium text-xl leading-none tracking-tight bg-black text-white md:py-2 py-2 md:px-0 px-2">
                 Download Cv
                 </button>
               </a>
