@@ -13,7 +13,7 @@ import {
 const Contact = () => {
   return (
     <div className=" max-w-[1300px] md:py-20 pt-32 w-full mx-auto">
-      <h1 className="pop md:text-6xl text-3xl font-semibold md:leading-[70px] md:tracking-tight md:text-left text-center mb-14 md:mt-28">
+      <h1 className="pop md:text-6xl text-3xl font-semibold md:leading-[70px] md:tracking-tight md:text-left text-center mb-14 md:mt-28 mt-28">
         Contact Me
       </h1>
       <div className=" mx-auto flex flex-col md:flex-row bg-white shadow-xl rounded-lg p-10 gap-10">
@@ -103,7 +103,7 @@ const Contact = () => {
                 rel="noopener noreferrer"
                 className="hover:underline "
               >
-                <button className="rounded-full font-medium text-xl leading-none tracking-tight bg-black text-white">
+                <button className="rounded-full font-medium text-xl leading-none tracking-tight bg-black text-white md:py-2 py-2">
                 Download Cv
                 </button>
               </a>

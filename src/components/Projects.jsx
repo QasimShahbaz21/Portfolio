@@ -57,7 +57,7 @@ const Projects = () => {
 
   return (
     <div className="featured w-full md:max-w-[1300px] md:py-20 pt-32 md:pt-36 mx-auto">
-      <div className="w-full border-b-[1px] border-zinc-700 md:pb-20 pb-10">
+      <div className="w-full border-b-[1px] border-zinc-700 md:pb-20 pb-10 pt-20">
         <h1 className="pop md:text-6xl text-3xl font-semibold md:leading-[70px] md:tracking-tight md:text-left text-center">
           Featured Projects
         </h1>
@@ -125,11 +125,11 @@ const Projects = () => {
             </ul>
             <div className="card rounded-xl overflow-hidden  transition-transform duration-300 hover:scale-90">
               <a href={project.link}>
-              <img
-                className="w-full md:h-[60vh] h-[70vh] object-cover"
-                src={project.image}
-                alt={project.name}
-              />
+                <img
+                  className="w-full md:h-[60vh] h-[70vh] object-cover"
+                  src={project.image}
+                  alt={project.name}
+                />
               </a>
             </div>
           </div>
