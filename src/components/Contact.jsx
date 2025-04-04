@@ -64,7 +64,7 @@ const Contact = () => {
 
   return (
     <div className="max-w-[1300px] md:py-20 pt-32 w-full mx-auto">
-      <h1 className="pop md:text-6xl text-3xl font-semibold text-center mb-14">Contact Me</h1>
+      <h1 className="pop md:text-6xl text-3xl font-semibold text-center mb-14 md:mt-5 mt-28">Contact Me</h1>
       <div className="mx-auto flex flex-col md:flex-row bg-white shadow-xl rounded-lg p-10 gap-10">
         <div className="w-full md:w-[55%]">
           <h2 className="robo text-2xl font-semibold mb-6">Get in Touch</h2>
