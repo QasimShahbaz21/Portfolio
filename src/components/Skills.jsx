@@ -7,7 +7,7 @@ const Skills = () => {
     <div
       data-scroll
       data-scroll-section
-      data-scroll-speed="-.3"
+      data-scroll-speed="-.2"
       className="w-full md:max-w-[1300px] md:py-20 pt-32 mx-auto"
       id="skills"
     >
