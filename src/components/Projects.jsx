@@ -56,7 +56,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="featured w-full md:max-w-[1300px] md:py-20 pt-32 md:pt-36 mx-auto">
+    <div className="featured w-full md:max-w-[1300px] md:py-20 pt-32 md:pt-36 mx-auto" id="projects">
       <div className="w-full border-b-[1px] border-zinc-700 md:pb-20 pb-10 pt-20">
         <h1 className="pop md:text-6xl text-3xl font-semibold md:leading-[70px] md:tracking-tight md:text-left text-center">
           Featured Projects

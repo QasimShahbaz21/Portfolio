@@ -9,6 +9,7 @@ const Skills = () => {
       data-scroll-section
       data-scroll-speed="-.3"
       className="w-full md:max-w-[1300px] md:py-20 pt-32 mx-auto"
+      id="skills"
     >
       <h1 className="pop md:text-6xl text-3xl font-semibold md:leading-[70px] md:tracking-tight md:text-left text-center mb-14 md:mt-28">
         Skills
