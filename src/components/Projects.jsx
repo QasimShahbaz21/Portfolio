@@ -121,7 +121,7 @@ const Projects = () => {
                 ))}
               </motion.h1>
             </div>
-            <ul className="px-7 pb-10 list-disc marker:text-white marker:text-2xl">
+            <ul className="px-7 pb-10 list-disc marker:text-[#E74c3c] marker:text-2xl">
               <li className="md:text-3xl text-2xl hover:scale-40 hover:text-[#E74C3C]">
                 {" "}
                 <a href={project.link}>{project.description}</a>
