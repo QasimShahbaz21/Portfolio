@@ -45,16 +45,16 @@ const Navbar = () => {
       {isOpen && (
         <div className="absolute top-16 left-0 w-full bg-white shadow-lg md:hidden flex flex-col items-center py-4 border-t-2 z-50">
           <Link to="about" smooth={true} duration={2000}>
-          <p className="py-2 cursor-pointer hover:text-[#E74C3C]">About</p>
+            <p className="py-2 cursor-pointer hover:text-[#E74C3C]">About</p>
           </Link>
           <Link to="projects" smooth={true} duration={2000}>
-          <p className="py-2 cursor-pointer hover:text-[#E74C3C]">Projects</p>
+            <p className="py-2 cursor-pointer hover:text-[#E74C3C]">Projects</p>
           </Link>
           <Link to="skills" smooth={true} duration={2000}>
-          <p className="py-2 cursor-pointer hover:text-[#E74C3C]">Skills</p>
+            <p className="py-2 cursor-pointer hover:text-[#E74C3C]">Skills</p>
           </Link>
           <Link to="contact" smooth={true} duration={2000}>
-          <p className="py-2 cursor-pointer hover:text-[#E74C3C]">Contact</p>
+            <p className="py-2 cursor-pointer hover:text-[#E74C3C]">Contact</p>
           </Link>
           <button className="w-[100px] py-2 bg-black text-white font-medium mt-4">
             Hire Me

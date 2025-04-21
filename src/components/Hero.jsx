@@ -19,12 +19,22 @@ const Hero = () => {
           transition={{ duration: 2, ease: "easeOut" }} // Smooth animation
         >
           <h1 className="pop md:text-6xl text-3xl text-[#000] font-semibold md:leading-[70px] md:tracking-tight">
-          Transforming Ideas into Exceptional <span className="text-[#E74C3C]">Designs</span> 
-          
-           
+            Transforming Ideas into Exceptional{" "}
+            <span className="text-[#E74C3C]">Designs</span>
           </h1>
           <p className="robo md:mt-10 mt-5 font-normal text-base text-gray-400">
-          Hello, I'm Muhammad Qasim, a passionate Frontend Developer with over 1.5 years of experience in creating visually appealing and user-friendly websites. Over the course of my career, I’ve had the opportunity to work with various clients, bringing their ideas to life through clean, responsive, and interactive web designs. My expertise lies in crafting seamless front-end experiences using HTML, CSS, JavaScript, and modern frameworks like React and Vue.js. I’m always eager to learn and stay updated with the latest industry trends to deliver exceptional digital experiences. Whether it's a small project or a complex web application, I pride myself on turning concepts into stunning, functional websites that make an impact.
+            Hello, I'm Muhammad Qasim, a passionate Frontend Developer with over
+            1.5 years of experience in creating visually appealing and
+            user-friendly websites. Over the course of my career, I’ve had the
+            opportunity to work with various clients, bringing their ideas to
+            life through clean, responsive, and interactive web designs. My
+            expertise lies in crafting seamless front-end experiences using
+            HTML, CSS, JavaScript, and modern frameworks like React and Vue.js.
+            I’m always eager to learn and stay updated with the latest industry
+            trends to deliver exceptional digital experiences. Whether it's a
+            small project or a complex web application, I pride myself on
+            turning concepts into stunning, functional websites that make an
+            impact.
           </p>
           <div className="robo flex items-center flex-wrap justify-between md:mt-10 mt-5 md:gap-2 gap-10 ">
             <div className="flex flex-col md:gap-6 gap-5">
