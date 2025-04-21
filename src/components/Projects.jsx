@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Power4 } from "gsap/all";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Projects = () => {
   const [hovering, setHovering] = useState([false, false]); // Hover state for both projects
@@ -20,7 +21,7 @@ const Projects = () => {
       image: "/itc.png",
       description: "ISLAMABAD TEA",
       tech: "Codeigniter, HTML, CSS, MySql",
-      link: "https://elohimtechnology.com/ITC/",
+      link: "https://islamabadtea.com/",
     },
     {
       id: 3,
@@ -63,7 +64,7 @@ const Projects = () => {
       className="featured w-full md:max-w-[1300px] md:py-20 pt-32 md:pt-36 mx-auto"
       id="projects"
     >
-      <div className="w-full border-b-[1px] border-zinc-700 md:pb-20 pb-10 md:pt-20 pt-48">
+      <div className="w-full border-b-[1px] border-zinc-700 md:pb-20 pb-10 md:pt-20 pt-28">
         <h1 className="pop md:text-6xl text-3xl font-semibold md:leading-[70px] md:tracking-tight md:text-left text-center">
           Featured Projects
         </h1>
@@ -132,7 +133,7 @@ const Projects = () => {
             <div className="card rounded-xl overflow-hidden  transition-transform duration-300 hover:scale-90">
               <a href={project.link}>
                 <img
-                  className="w-full md:h-[60vh] h-[70vh] object-cover"
+                  className="w-full md:h-[60vh] h-[80vh] object-cover"
                   src={project.image}
                   alt={project.name}
                 />
@@ -140,6 +141,12 @@ const Projects = () => {
             </div>
           </div>
         ))}
+
+        <Link to="/projects" className="pb-10">
+          <button className="cursor-pointer w-[150px] py-4 text-white rounded-full font-medium text-xl leading-none tracking-tight">
+            All Projects
+          </button>
+        </Link>
       </div>
     </div>
   );

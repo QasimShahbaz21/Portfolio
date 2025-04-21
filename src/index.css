@@ -48,3 +48,8 @@ button:hover {
   place-items: center;
   height: 100vh;
 }
+@media(max-width:768px){
+  .abc{
+    height: 80%!important;
+  }
+}

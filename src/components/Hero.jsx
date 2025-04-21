@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import '../index.css';
+import "../index.css";
 import { motion } from "framer-motion";
 import * as THREE from "three";
 // import BIRDS from "vanta/dist/vanta.birds.min";
@@ -16,15 +16,15 @@ const Hero = () => {
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 1000.0,
+          minHeight: 500.0,
           minWidth: 200.0,
           scale: 1.0,
           scaleMobile: 1.0,
           backgroundColor: 0xf2f2f0,
-          color1: 0xE74C3C,
+          color1: 0xe74c3c,
           birdSize: 0.5,
           separation: 21.0,
-          quantity: 3
+          quantity: 3,
         })
       );
     }
@@ -37,19 +37,17 @@ const Hero = () => {
     };
   }, [vantaEffect]);
 
-
-
   return (
     <div
       ref={vantaRef}
       data-scroll
       data-scroll-section
       data-scroll-speed="-.3"
-      className="w-full  md:pt-2 mt-7
+      className="w-full md:h-[80vh] abc md:pt-2 md:mt-0 mt-7
        md:mb-0 mb-10 md:px-0 px-5"
       id="about"
     >
-      <div className="md:max-w-[1300px] flex items-center md:flex-row flex-col justify-between mx-auto md:gap-[70px] gap-10">
+      <div className="md:max-w-[1300px] flex items-center md:flex-row flex-col justify-between mx-auto md:gap-[70px] gap-5">
         {/* Animate the left section (text area) */}
         <motion.div
           className="md:max-w-[800px]"
@@ -89,7 +87,7 @@ const Hero = () => {
                 5+
               </p>
               <p className="font-normal text-[18px] leading-5 tracking-tight text-gray-400">
-                Clients{" "}
+                Current Clients{" "}
               </p>
             </div>
             <div className="flex flex-col md:gap-6 gap-5">
