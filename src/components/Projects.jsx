@@ -133,7 +133,7 @@ const Projects = () => {
             <div className="card rounded-xl overflow-hidden  transition-transform duration-300 hover:scale-90">
               <a href={project.link}>
                 <img
-                  className="w-full md:h-[60vh] h-[80vh] object-cover"
+                  className="w-full md:h-[60vh] h-[80vh] md:object-cover object-contain"
                   src={project.image}
                   alt={project.name}
                 />
