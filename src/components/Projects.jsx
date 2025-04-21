@@ -69,7 +69,7 @@ const Projects = () => {
           Featured Project
         </h1>
       </div>
-      <div className="cards w-full flex gap-10 items-center justify-center md:flex-row md:flex-wrap flex-col mt-10 md:px-0 px-5">
+      <div className="cards w-full flex md:gap-10 gap-4 items-center justify-center md:flex-row md:flex-wrap flex-col md:mt-10 mt-5 md:px-0 px-5">
         {projects.map((project, index) => (
           <div
             key={project.id}
@@ -87,7 +87,7 @@ const Projects = () => {
                 return newHovering;
               })
             }
-            className="relative flex flex-col md:w-[45%] w-full md:h-[80vh] h-[100vh]"
+            className="relative flex flex-col md:w-[45%] w-full md:h-[80vh] "
           >
             <div className="absolute  left-1/2 top-1/2 -translate-x-[50%] -translate-y-[50%] z-50">
               <motion.h1
