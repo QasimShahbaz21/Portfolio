@@ -20,7 +20,7 @@ const Navbar = () => {
           <p className="cursor-pointer hover:text-[#E74C3C]">Projects</p>
         </Link>
         <Link to="skills" smooth={true} duration={2000}>
-          <p className="cursor-pointer hover:text-[#605250]">Skills</p>
+          <p className="cursor-pointer hover:text-[#E74C3C]">Skills</p>
         </Link>
         <Link to="contact" smooth={true} duration={2000}>
           <p className="cursor-pointer hover:text-[#E74C3C]">Contact</p>
