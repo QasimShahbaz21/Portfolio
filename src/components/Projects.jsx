@@ -142,7 +142,7 @@ const Projects = () => {
           </div>
         ))}
 
-        <Link to="/projects" className="pb-10">
+        <Link to="/projects" className="pb-10 pt-10">
           <button className="cursor-pointer w-[150px] py-4 bg-[#E74C3C] text-white rounded-full font-medium text-xl leading-none tracking-tight">
             All Projects
           </button>
