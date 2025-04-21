@@ -7,7 +7,7 @@ const Hero = () => {
       data-scroll
       data-scroll-section
       data-scroll-speed="-.3"
-      className="w-full md:h-[80vh] md:mt-28 mt-28 md:mb-0 mb-10 md:px-0 px-5"
+      className="w-full md:h-[80vh] md:mt-28 mt-20 md:mb-0 mb-10 md:px-0 px-5"
       id="about"
     >
       <div className="md:max-w-[1300px] flex items-center md:flex-row flex-col justify-between mx-auto">

@@ -60,10 +60,10 @@ const Projects = () => {
       data-scroll
       data-scroll-section
       data-scroll-speed="-.2"
-      className="featured w-full md:max-w-[1300px] md:py-20 md:mt-0 mt-52 md:pt-36 mx-auto"
+      className="featured w-full md:max-w-[1300px] md:py-20 pt-32 md:pt-36 mx-auto"
       id="projects"
     >
-      <div className="w-full border-b-[1px] border-zinc-700 md:pb-20 pb-10 pt-20">
+      <div className="w-full border-b-[1px] border-zinc-700 md:pb-20 pb-10 md:pt-20 pt-40">
         <h1 className="pop md:text-6xl text-3xl font-semibold md:leading-[70px] md:tracking-tight md:text-left text-center">
           Featured Projects
         </h1>
