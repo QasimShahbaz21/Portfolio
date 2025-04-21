@@ -43,3 +43,8 @@ button {
 button:hover {
   background-color: #E74C3C; /* Hover effect for buttons */
 }
+#about {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
