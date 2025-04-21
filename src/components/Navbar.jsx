@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="robo w-full md:max-w-[600px] mx-auto px-6 py-4 mt-2 border-2 border-[#d0cccc] rounded-full shadow-md flex items-center justify-between">
       {/* Left - Logo */}
       <div className="font-medium text-xl leading-none tracking-tight pr-4 md:border-r-2 md:border-[#000] py-3">
-        Qasim
+        Qasim2
       </div>
 
       {/* Middle - Desktop Menu */}
