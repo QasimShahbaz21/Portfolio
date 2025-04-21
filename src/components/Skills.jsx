@@ -11,8 +11,8 @@ const Skills = () => {
       className="w-full md:max-w-[1300px] mx-auto md:mb-[100px]"
       id="skills"
     >
-      <h1 className="pop md:text-6xl text-3xl font-semibold md:leading-[70px] md:tracking-tight md:text-left text-center mb-14 md:mt-[130px] mt-[220px]">
-        Skills
+      <h1 className="pop md:text-6xl text-3xl font-semibold md:leading-[70px] md:tracking-tight md:text-left text-center mb-14 md:mt-[130px] mt-[260px]">
+        Skillssss
       </h1>
       <div className="flex flex-col md:flex-row items-center justify-center mx-auto gap-10 px-5">
         {/* Text Section */}
