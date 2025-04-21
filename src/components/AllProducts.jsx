@@ -156,7 +156,7 @@ const AllProducts = () => {
             <div className="card rounded-xl overflow-hidden  transition-transform duration-300 hover:scale-90">
               <a href={project.link}>
                 <img
-                  className="w-full h-[360px] md:object-cover object-contain"
+                  className="w-full md:h-[360px] h-[200px] md:object-cover object-contain"
                   src={project.image}
                   alt={project.name}
                 />
