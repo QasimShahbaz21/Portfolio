@@ -64,9 +64,9 @@ const Projects = () => {
       className="featured w-full md:max-w-[1300px] md:py-20 pt-32 md:pt-36 mx-auto"
       id="projects"
     >
-      <div className="w-full border-b-[1px] border-zinc-700 md:pb-20 pb-10 md:pt-20 pt-[170px]">
+      <div className="w-full border-b-[1px] border-zinc-700 md:pb-20 pb-10 md:pt-20 pt-[220px]">
         <h1 className="pop md:text-6xl text-3xl font-semibold md:leading-[70px] md:tracking-tight md:text-left text-center">
-          Featured Projectsssss
+          Featuredd Project
         </h1>
       </div>
       <div className="cards w-full flex gap-10 items-center justify-center md:flex-row md:flex-wrap flex-col mt-10 md:px-0 px-5">
