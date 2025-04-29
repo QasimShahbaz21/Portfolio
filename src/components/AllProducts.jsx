@@ -17,7 +17,7 @@ const AllProducts = () => {
     {
       id: 2,
       name: "ITC",
-      image: "/itc.png",
+      image: "/portfolio/Islamabad-tea.png",
       description: "ISLAMABAD TEA",
       tech: "Codeigniter, HTML, CSS, MySql",
       link: "https://islamabadtea.com/",
@@ -41,7 +41,7 @@ const AllProducts = () => {
     {
       id: 5,
       name: "Lexed",
-      image: "/lexed.png",
+      image: "/portfolio/lexed.jpg",
       description: "Laws Of Pakistan",
       tech: "Codeigniter, HTML, CSS, MySql",
       link: "https://lawsofpakistan.online/",
@@ -64,7 +64,7 @@ const AllProducts = () => {
     {
       id: 8,
       name: "Godwin",
-      image: "/godwin.png",
+      image: "/portfolio/godwin.png",
       description: "Gowdin Austin",
       tech: "Codeigniter, HTML, CSS, MySql",
       link: "https://godwinausten.co.uk/",
@@ -72,10 +72,27 @@ const AllProducts = () => {
     {
       id: 9,
       name: "Bazyaft",
-      image: "/bazyaft.png",
+      image: "/portfolio/baazyaft.png",
       description: "Bazyaft",
       tech: "Codeigniter, HTML, CSS, MySql",
       link: "https://baazyaftshop.com/",
+    },
+
+    {
+      id: 10,
+      name: "AVH",
+      image: "/portfolio/Ali_Vetrinary_Hospital.png",
+      description: "Ali Vetrinary Hospital",
+      tech: "Codeigniter, HTML, CSS, MySql",
+      link: "https://avh.com.pk/",
+    },
+    {
+      id: 11,
+      name: "Arabian",
+      image: "/portfolio/Arabian.png",
+      description: "Arabians Showline",
+      tech: "Codeigniter, HTML, CSS, MySql",
+      link: "https://arabiansshowline.vercel.app/",
     },
   ];
 
@@ -154,9 +171,9 @@ const AllProducts = () => {
               </li>
             </ul>
             <div className="card rounded-xl overflow-hidden  transition-transform duration-300 hover:scale-90">
-              <a href={project.link}>
+              <a href={project.link} target="_blank">
                 <img
-                  className="w-full md:h-[360px] h-[200px] md:object-cover object-contain"
+                  className="w-full md:h-[400px] h-[200px] md:object-cover object-contain"
                   src={project.image}
                   alt={project.name}
                 />
