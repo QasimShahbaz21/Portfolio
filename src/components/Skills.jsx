@@ -65,7 +65,7 @@ const Skills = () => {
             { id: 5, name: "React js", image: "/react.png" },
             { id: 6, name: "Codeigniter", image: "/codeigniter.png" },
             { id: 7, name: "Mysql", image: "/mysql.png" },
-            { id: 8, name: "TailwindCss", image: "/tail.png" },
+            // { id: 8, name: "TailwindCss", image: "/tail.png" },
           ].map((skill) => (
             <div key={skill.id} className="relative group">
               <img

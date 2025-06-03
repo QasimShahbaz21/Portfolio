@@ -41,9 +41,11 @@ const Navbar = () => {
 
       {/* Right - Hire Me */}
       <div className="hidden md:block pl-4 ]">
+        <Link to="contact" smooth={true} duration={2000}>
         <button className="w-[150px] py-3 bg-black text-white rounded-full font-medium text-xl leading-none tracking-tight">
           Hire Me
         </button>
+        </Link>
       </div>
 
       {/* Mobile Menu Button */}
